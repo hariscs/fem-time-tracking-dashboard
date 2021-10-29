@@ -10,8 +10,10 @@ const CardItem = (props) => {
 					<img src={props.infoIcon} alt='icon' className='card__header--icon' />
 				</div>
 				<div className='card__main'>
-					<h3 className='card__main--time'>{props.infoTime}</h3>
-					<span className='card__main--subtitle'>{props.infoSubtitle}</span>
+					<h3 className='card__main--time'>{props.infoTime} hrs</h3>
+					<span className='card__main--subtitle'>
+						Last Week - {props.infoSubtitle}hrs
+					</span>
 				</div>
 			</div>
 		</li>

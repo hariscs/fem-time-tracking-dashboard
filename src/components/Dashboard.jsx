@@ -8,8 +8,8 @@ import iconEllipsis from '../images/icon-ellipsis.svg';
 import profileImg from '../images/image-jeremy.png';
 
 const Dashboard = ({ data }) => {
-	console.log(data);
-
+	// console.log(props.data);
+	// console.log(props.data[1].timeframes.daily.current);
 	return (
 		<section className='dashboard'>
 			<Profile
@@ -21,13 +21,15 @@ const Dashboard = ({ data }) => {
 				monthly='Monthly'
 			/>
 			<ul className='card'>
-				<CardItem
-					bannerIcon={iconWork}
-					cardTitle='Work'
-					infoIcon={iconEllipsis}
-					infoTime='32hrs'
-					infoSubtitle='Last Week - 8hrs'
-				/>
+				{data.map((item) => (
+					<CardItem
+						cardTitle={item.title}
+						infoTime={item.timeframes.weekly.current}
+						infoSubtitle={item.timeframes.weekly.previous}
+						infoIcon={iconEllipsis}
+						bannerIcon={iconWork}
+					/>
+				))}
 			</ul>
 		</section>
 	);
