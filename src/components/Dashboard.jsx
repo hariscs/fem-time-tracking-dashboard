@@ -7,7 +7,9 @@ import iconEllipsis from '../images/icon-ellipsis.svg';
 
 import profileImg from '../images/image-jeremy.png';
 
-const Dashboard = (props) => {
+const Dashboard = ({ data }) => {
+	console.log(data);
+
 	return (
 		<section className='dashboard'>
 			<Profile
@@ -26,8 +28,6 @@ const Dashboard = (props) => {
 					infoTime='32hrs'
 					infoSubtitle='Last Week - 8hrs'
 				/>
-
-				{console.log(props.data)}
 			</ul>
 		</section>
 	);
