@@ -6,9 +6,24 @@ html {
 *::before,
 *::after {
 	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	margin: 0;
 	font-family: 'Rubik', sans-serif;
+	background: hsl(226, 43%, 10%);
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }

@@ -1,0 +1,42 @@
+.profile {
+	max-width: 400px;
+}
+
+.profile__heading {
+	display: flex;
+	gap: 1em;
+	align-items: center;
+	background: hsl(246, 80%, 60%);
+	color: #fff;
+	padding: 2em;
+	border-radius: 17px;
+	z-index: 9;
+}
+
+.profile__img {
+	width: 62px;
+	border: 2px solid #fff;
+	border-radius: 100vh;
+}
+
+.profile__heading--toptext {
+	font-size: 0.9rem;
+}
+
+.profile__heading--title {
+	font-weight: 300;
+}
+
+.profile__report {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 3em 2em 2em;
+	background: hsl(235, 46%, 20%);
+	color: #fff;
+	border-radius: 17px;
+}
+
+.report {
+	font-weight: 400;
+}

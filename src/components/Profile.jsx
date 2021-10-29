@@ -1,3 +1,5 @@
+import './Profile.css';
+
 const Profile = (props) => {
 	return (
 		<div className='profile'>
@@ -9,9 +11,9 @@ const Profile = (props) => {
 				</div>
 			</div>
 			<div className='profile__report'>
-				<h3 className='daily'>{props.daily}</h3>
-				<h3 className='weekly'>{props.weekly}</h3>
-				<h3 className='monthly'>{props.monthly}</h3>
+				<h3 className='daily report'>{props.daily}</h3>
+				<h3 className='weekly report'>{props.weekly}</h3>
+				<h3 className='monthly report'>{props.monthly}</h3>
 			</div>
 		</div>
 	);

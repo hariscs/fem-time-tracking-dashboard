@@ -23,7 +23,7 @@ const Dashboard = () => {
 					bannerIcon={iconWork}
 					cardTitle='Work'
 					infoIcon={iconEllipsis}
-					infoTitle='32hrs'
+					infoTime='32hrs'
 					infoSubtitle='Last Week - 8hrs'
 				/>
 			</ul>

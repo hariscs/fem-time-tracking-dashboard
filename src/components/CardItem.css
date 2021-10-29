@@ -1,4 +1,48 @@
+.card__item {
+	max-width: 400px;
+}
+
 .card__banner {
-	background: lawngreen;
-	padding-left: 10em;
+	background-color: hsl(15, 100%, 70%);
+	background-image: url(../images/icon-work.svg);
+	background-position: right 15px center;
+	background-repeat: no-repeat;
+	padding: 2em;
+	border-radius: 16px;
+	text-align: right;
+}
+
+.card__info {
+	background: hsl(235, 46%, 20%);
+	color: #fff;
+	padding: 1.5em;
+	border-radius: 16px;
+	margin-top: -1.3em;
+	z-index: 2;
+}
+
+.card__header,
+.card__main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card__header {
+	margin-bottom: 0.5em;
+}
+
+.card__header--icon {
+	cursor: pointer;
+	padding: 0.5em;
+}
+
+.card__header--title {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.card__main--time {
+	font-size: 2.2rem;
+	font-weight: 300;
 }
