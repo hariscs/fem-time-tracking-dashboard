@@ -1,39 +1,36 @@
 .card__item {
 	max-width: 400px;
 	border-radius: 18px;
-	overflow: hidden;
+}
+
+li {
+	background-position: top -7px right 15px;
+	background-repeat: no-repeat;
 }
 
 li:nth-child(1) {
 	background-color: hsl(15, 100%, 70%);
 	background-image: url(../images/icon-work.svg);
-	background-repeat: no-repeat;
 }
 li:nth-child(2) {
 	background-color: hsl(195, 74%, 62%);
 	background-image: url(../images/icon-play.svg);
-	/* */
-	background-repeat: no-repeat;
 }
 li:nth-child(3) {
 	background-color: hsl(348, 100%, 68%);
 	background-image: url(../images/icon-study.svg);
-	background-repeat: no-repeat;
 }
 li:nth-child(4) {
 	background-color: hsl(145, 58%, 55%);
 	background-image: url(../images/icon-exercise.svg);
-	background-repeat: no-repeat;
 }
 li:nth-child(5) {
 	background-color: hsl(264, 64%, 52%);
 	background-image: url(../images/icon-social.svg);
-	background-repeat: no-repeat;
 }
 li:nth-child(6) {
 	background-color: hsl(43, 84%, 65%);
 	background-image: url(../images/icon-self-care.svg);
-	background-repeat: no-repeat;
 }
 
 .card__banner {

@@ -107,9 +107,9 @@ const routine = [
 
 function App() {
 	return (
-		<div>
+		<>
 			<Dashboard data={routine} />
-		</div>
+		</>
 	);
 }
 
