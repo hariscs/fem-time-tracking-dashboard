@@ -1,35 +1,32 @@
 .card__item {
 	max-width: 400px;
 	border-radius: 18px;
-}
-
-li {
 	background-position: top -7px right 15px;
 	background-repeat: no-repeat;
 }
 
-li:nth-child(1) {
-	background-color: hsl(15, 100%, 70%);
+.card__item:nth-child(1) {
+	background-color: #ff8c66;
 	background-image: url(../images/icon-work.svg);
 }
-li:nth-child(2) {
-	background-color: hsl(195, 74%, 62%);
+.card__item:nth-child(2) {
+	background-color: #56c2e6;
 	background-image: url(../images/icon-play.svg);
 }
-li:nth-child(3) {
-	background-color: hsl(348, 100%, 68%);
+.card__item:nth-child(3) {
+	background-color: #ff5c7c;
 	background-image: url(../images/icon-study.svg);
 }
-li:nth-child(4) {
-	background-color: hsl(145, 58%, 55%);
+.card__item:nth-child(4) {
+	background-color: #4acf81;
 	background-image: url(../images/icon-exercise.svg);
 }
-li:nth-child(5) {
-	background-color: hsl(264, 64%, 52%);
+.card__item:nth-child(5) {
+	background-color: #7536d3;
 	background-image: url(../images/icon-social.svg);
 }
-li:nth-child(6) {
-	background-color: hsl(43, 84%, 65%);
+.card__item:nth-child(6) {
+	background-color: rgb(241, 198, 91);
 	background-image: url(../images/icon-self-care.svg);
 }
 

@@ -3,6 +3,8 @@ import Dashboard from './components/Dashboard';
 const routine = [
 	{
 		title: 'Work',
+		background: '#ff8c66',
+		id: '00',
 		timeframes: {
 			daily: {
 				current: 5,
@@ -20,6 +22,8 @@ const routine = [
 	},
 	{
 		title: 'Play',
+		background: '#56c2e6',
+		id: '01',
 		timeframes: {
 			daily: {
 				current: 1,
@@ -37,6 +41,8 @@ const routine = [
 	},
 	{
 		title: 'Study',
+		background: '#ff5c7c',
+		id: '02',
 		timeframes: {
 			daily: {
 				current: 0,
@@ -54,6 +60,8 @@ const routine = [
 	},
 	{
 		title: 'Exercise',
+		background: '#4acf81',
+		id: '03',
 		timeframes: {
 			daily: {
 				current: 1,
@@ -71,6 +79,8 @@ const routine = [
 	},
 	{
 		title: 'Social',
+		background: '#7536d3',
+		id: '04',
 		timeframes: {
 			daily: {
 				current: 1,
@@ -88,6 +98,8 @@ const routine = [
 	},
 	{
 		title: 'Self Care',
+		background: '#f1c65b',
+		id: '05',
 		timeframes: {
 			daily: {
 				current: 0,

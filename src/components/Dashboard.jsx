@@ -8,8 +8,13 @@ import iconEllipsis from '../images/icon-ellipsis.svg';
 import profileImg from '../images/image-jeremy.png';
 
 const Dashboard = ({ data }) => {
-	// console.log(props.data);
-	// console.log(props.data[1].timeframes.daily.current);
+	// eslint-disable-next-line no-lone-blocks
+	{
+		fetch('./data/data/json')
+			.then((res) => res.json())
+			.then((data) => console.log(data))
+			.catch((err) => console.log(err));
+	}
 	return (
 		<section className='dashboard'>
 			<Profile
@@ -28,6 +33,7 @@ const Dashboard = ({ data }) => {
 						infoSubtitle={item.timeframes.weekly.previous}
 						infoIcon={iconEllipsis}
 						bannerIcon={iconWork}
+						key={item.id}
 					/>
 				))}
 			</ul>
