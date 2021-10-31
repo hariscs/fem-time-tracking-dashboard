@@ -2,7 +2,7 @@ import './CardItem.css';
 
 const CardItem = (props) => {
 	return (
-		<li className='card__item'>
+		<li className='card__item' style={{ backgroundColor: props.bgColor }}>
 			<div className='card__banner'></div>
 			<div className='card__info'>
 				<div className='card__header'>

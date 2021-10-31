@@ -3,6 +3,8 @@
 	background: hsl(235, 46%, 20%);
 	border-radius: 17px;
 	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .profile__heading {
@@ -17,7 +19,7 @@
 }
 
 .profile__img {
-	width: 62px;
+	max-width: 62px;
 	border: 2px solid #fff;
 	border-radius: 100vh;
 }

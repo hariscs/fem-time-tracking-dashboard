@@ -1,10 +1,6 @@
 import './Profile.css';
 
 const Profile = (props) => {
-	const clickHandler = (e) => {
-		console.log(e.target);
-	};
-
 	return (
 		<div className='profile'>
 			<div className='profile__heading'>
@@ -15,13 +11,22 @@ const Profile = (props) => {
 				</div>
 			</div>
 			<div className='profile__report'>
-				<h3 className='daily report' onClick={clickHandler}>
+				<h3
+					className='daily report'
+					onClick={() => props.onClickHandler('daily')}
+				>
 					{props.daily}
 				</h3>
-				<h3 className='weekly report' onClick={clickHandler}>
+				<h3
+					className='weekly report'
+					onClick={() => props.onClickHandler('weekly')}
+				>
 					{props.weekly}
 				</h3>
-				<h3 className='monthly report ' onClick={clickHandler}>
+				<h3
+					className='monthly report '
+					onClick={() => props.onClickHandler('monthly')}
+				>
 					{props.monthly}
 				</h3>
 			</div>
