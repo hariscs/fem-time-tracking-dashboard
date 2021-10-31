@@ -10,7 +10,7 @@ import profileImg from '../images/image-jeremy.png';
 import useFetchData from './useFetchData';
 
 const Dashboard = () => {
-	const { data } = useFetchData('http://localhost:3000/data/data.json');
+	const { data } = useFetchData('/data/data.json');
 
 	return (
 		<section className='dashboard'>
