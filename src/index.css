@@ -10,10 +10,19 @@ html {
 	padding: 0;
 }
 
+:root {
+	--white: #fff;
+	--blue: hsl(246, 80%, 60%);
+	--vary-dark-blue: hsl(226, 43%, 10%);
+	--dark-blue: hsl(235, 46%, 20%);
+	--dest-blue: hsl(235, 45%, 61%);
+	--pale-blue: hsl(236, 100%, 87%);
+}
+
 body {
 	margin: 0;
 	font-family: 'Rubik', sans-serif;
-	background: hsl(226, 43%, 10%);
+	background: var(--vary-dark-blue);
 }
 
 img {

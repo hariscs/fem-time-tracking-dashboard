@@ -29,11 +29,15 @@
 }
 
 .card__info {
-	background: hsl(235, 46%, 20%);
-	color: #fff;
+	background: var(--dark-blue);
 	padding: 1.5em;
 	border-radius: 17px;
 	margin-top: -1.3em;
+}
+
+.card__info:hover,
+.card__info:focus {
+	background-color: var(--blue);
 }
 
 .card__header,
@@ -46,6 +50,7 @@
 
 .card__header {
 	margin-bottom: 0.5em;
+	color: var(--pale-blue);
 }
 
 .card__header--icon {
@@ -56,11 +61,17 @@
 .card__header--title {
 	font-size: 1.3rem;
 	font-weight: 400;
+	color: var(--white);
 }
 
 .card__main--time {
 	font-size: 2.2rem;
 	font-weight: 300;
+	color: var(--white);
+}
+
+.card__main--subtitle {
+	color: var(--pale-blue);
 }
 
 @media (min-width: 700px) {
