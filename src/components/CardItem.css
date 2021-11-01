@@ -1,28 +1,28 @@
 .card__item {
-	max-width: 400px;
+	width: 330px;
 	border-radius: 18px;
 	background-position: top -7px right 15px;
 	background-repeat: no-repeat;
 }
 
-/* .card__item:nth-child(1) {
-	background-image: url(../images/icon-work.svg);
+.card__item:nth-child(1) {
+	background-image: url(../assets/icon-work.svg);
 }
 .card__item:nth-child(2) {
-	background-image: url(../images/icon-play.svg);
+	background-image: url(../assets/icon-play.svg);
 }
 .card__item:nth-child(3) {
-	background-image: url(../images/icon-study.svg);
+	background-image: url(../assets/icon-study.svg);
 }
 .card__item:nth-child(4) {
-	background-image: url(../images/icon-exercise.svg);
+	background-image: url(../assets/icon-exercise.svg);
 }
 .card__item:nth-child(5) {
-	background-image: url(../images/icon-social.svg);
+	background-image: url(../assets/icon-social.svg);
 }
 .card__item:nth-child(6) {
-	background-image: url(../images/icon-self-care.svg);
-} */
+	background-image: url(../assets/icon-self-care.svg);
+}
 
 .card__banner {
 	padding: 2em;
