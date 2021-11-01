@@ -20,7 +20,7 @@
 
 .profile__img {
 	max-width: 62px;
-	border: 2px solid #fff;
+	border: 3px solid #fff;
 	border-radius: 100vh;
 }
 
@@ -42,4 +42,27 @@
 
 .report {
 	font-weight: 400;
+}
+
+@media (min-width: 700px) {
+	.profile {
+		width: 260px;
+	}
+	.profile__img {
+		max-width: 80px;
+		margin-bottom: 1em;
+	}
+	.profile__heading {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.profile__heading--title {
+		font-size: 2.5rem;
+		margin: 0.1em 0 1em;
+	}
+	.profile__report {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 2em;
+	}
 }
