@@ -1,6 +1,6 @@
 .card__item {
 	width: 330px;
-	border-radius: 18px;
+	border-radius: 12px;
 	background-position: top -7px right 15px;
 	background-repeat: no-repeat;
 }
@@ -31,13 +31,14 @@
 .card__info {
 	background: var(--dark-blue);
 	padding: 1.5em;
-	border-radius: 17px;
+	border-radius: 12px;
 	margin-top: -1.3em;
 }
 
 .card__info:hover,
 .card__info:focus {
-	background-color: var(--blue);
+	background: hsl(235, 40%, 25%);
+	cursor: pointer;
 }
 
 .card__header,
