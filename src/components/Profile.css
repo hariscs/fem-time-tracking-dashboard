@@ -46,6 +46,10 @@
 	padding: 0.4em;
 }
 
+.profile__report h3.active {
+	color: var(--white);
+}
+
 .report:hover,
 .report:focus {
 	color: var(--white);

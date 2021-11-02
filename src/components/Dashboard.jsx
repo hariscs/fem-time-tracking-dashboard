@@ -31,6 +31,7 @@ const Dashboard = () => {
 							infoIcon={iconEllipsis}
 							bgColor={item.background}
 							key={item.id}
+							infoData={report}
 						/>
 					))}
 			</ul>

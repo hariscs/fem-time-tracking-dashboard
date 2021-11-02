@@ -1,6 +1,12 @@
+import { useRef } from 'react';
+
 import './Profile.css';
 
 const Profile = (props) => {
+	const daily = useRef();
+	const weekly = useRef();
+	const monthly = useRef();
+
 	return (
 		<div className='profile'>
 			<div className='profile__heading'>
@@ -12,20 +18,39 @@ const Profile = (props) => {
 			</div>
 			<div className='profile__report'>
 				<h3
+					ref={daily}
 					className='daily report'
-					onClick={() => props.onClickHandler('daily')}
+					onClick={() => {
+						props.onClickHandler('daily');
+						daily.current.classList.add('active');
+						weekly.current.classList.remove('active');
+						monthly.current.classList.remove('active');
+					}}
 				>
 					{props.daily}
 				</h3>
+
 				<h3
-					className='weekly report'
-					onClick={() => props.onClickHandler('weekly')}
+					ref={weekly}
+					className='weekly report active'
+					onClick={() => {
+						props.onClickHandler('weekly');
+						daily.current.classList.remove('active');
+						weekly.current.classList.add('active');
+						monthly.current.classList.remove('active');
+					}}
 				>
 					{props.weekly}
 				</h3>
 				<h3
+					ref={monthly}
 					className='monthly report '
-					onClick={() => props.onClickHandler('monthly')}
+					onClick={() => {
+						props.onClickHandler('monthly');
+						daily.current.classList.remove('active');
+						weekly.current.classList.remove('active');
+						monthly.current.classList.add('active');
+					}}
 				>
 					{props.monthly}
 				</h3>
