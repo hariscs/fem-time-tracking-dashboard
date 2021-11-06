@@ -20,6 +20,8 @@ html {
 }
 
 body {
+	display: grid;
+	min-height: 100vh;
 	margin: 0;
 	font-family: 'Rubik', sans-serif;
 	background: var(--vary-dark-blue);
